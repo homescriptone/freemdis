@@ -20,6 +20,7 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SYRRPC2C8"></script>
     <script async>
+       document.addEventListener('DOMContentLoaded', function(){
         const cookieConsent = new CookieConsent({
             contentUrl: "/node_modules/cookie-consent-js/cookie-consent-content", // location of the language files
             privacyPolicyUrl: "/privacy-policy.html"
@@ -33,6 +34,7 @@
             gtag('config', 'G-9SYRRPC2C8');
 
         }
+       });
         
     </script>
 
