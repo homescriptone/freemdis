@@ -14,6 +14,7 @@
       <div class="navbar-end">
         <a class="navbar-item" href="/"> Home </a>
         <a class="navbar-item" target="__blank" href="https://homescriptone.com"> About us </a>
+        <a class="navbar-item" target="__blank" href="https://github.com/homescriptone/freemdis"> Contribute to the project us </a>
         <a class="navbar-item" target="__blank" href="https://buymeacoffee.com/homescriptone"> Support the project </a>
       </div>
     </div>
