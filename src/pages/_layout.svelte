@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
-        <img src="./src/assets/logo.png" alt="logo-freemdis" />
+        <img src="logo.png" alt="logo-freemdis" />
       </a>
       <span class="navbar-burger burger" data-target="navbarMenu">
         <span />
