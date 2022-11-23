@@ -30,7 +30,7 @@
 
 
     function generateURL( page_number, page_limit, default_wp_version ) {
-        return freemius_plugins_lists = "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[page]="+page_number+"&request[per_page]="+page_limit+"&request[author]=freemius&request[wp_version]="+default_wp_version;
+        return freemius_plugins_lists = "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[page]="+page_number+"&request[per_page]="+page_limit+"&request[author]=freemius";
     }
 
     onMount( async () => {
