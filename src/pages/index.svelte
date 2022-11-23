@@ -12,7 +12,7 @@
     var next_page;
     var prev_page;
     var default_wp_version = '6.1';
-    var freemius_plugins_lists = "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[page]="+current_page+"&request[per_page]="+page_limit+"&request[author]=freemius&request[wp_version]="+default_wp_version;
+    var freemius_plugins_lists = "https://api.wordpress.org/plugins/info/1.2/?action=query_plugins&request[page]="+current_page+"&request[per_page]="+page_limit+"&request[author]=freemius;
     var total_pages;
     var api_obj;
     var plugins = [];
